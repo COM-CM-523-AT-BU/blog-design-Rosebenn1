@@ -22,6 +22,7 @@ body {
     margin-right: auto;
 
 }
+
 body > header {
     background-color: #667eea;
     color: black;
@@ -69,8 +70,9 @@ ul {
 
 ul li {
 display: inline;
-margin-right: 2rem;
+margin-right: 2.5rem;
 }
+
 ul li a {
     color: #667eea;
     text-decoration: none;
