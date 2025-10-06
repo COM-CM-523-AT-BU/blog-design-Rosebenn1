@@ -2,3 +2,187 @@
 Put your styles in this file. Import your fonts at the top of the file! See example below, which uses @import to retrieve the Roboto typeface from Google Fonts.
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 ===== */
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Boldonse&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Special+Gothic+Expanded+One&display=swap');
+
+
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body {
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body > header {
+    background-color: #667eea;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+article {
+    background-color: white;
+    padding: 3rem;
+    margin: 2rem;
+}
+
+h5 {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 1rem;
+
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+ul {
+    padding: 1rem 0;
+    margin: 0 0 2rem 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+ul li {
+display: inline;
+margin-right: 2rem;
+}
+ul li a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+ul li button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #667eea;
+    background-color: white;
+    color: #667eea;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 1.1rem;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin: 0;
+}
+section {
+    background-color: #e8f4f8;
+    padding: 1.5rem;
+    margin: 2rem 0;
+
+}
+span {
+    font-weight: bold;
+    color: #2980b9;
+    transform: uppercase;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    border-bottom: 3px solid #667eea;
+    padding: 0.5rem;
+}
+
+p {
+    margin: 1rem 0;
+    max-width: 100%;
+}
+
+blockquote {
+    background-color: #f9f9f9;
+    font-style: italic;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+    blockquote p:first-child {
+       font-size: 1.1rem;
+       color: #555;
+}
+    blockquote p:last-child {
+        font-size: 0.9rem;
+        color: #999;
+        text-align: right;
+        font-style: normal;
+}
+ 
+article ul:not(:first-of-type) {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+ }
+
+ article ul:not(:first-of-type) li {
+    margin-bottom: 0.8rem;
+ }
+
+article ul:not(:first-of-type) li a {
+    color: #667eea;
+    text-decoration: none;
+
+ }
+
+ figure {
+    min-width: 100%;
+    margin: 2rem 0;
+ }
+
+ img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+ }
+
+ figcaption {
+    font-size: 0.875rem;
+    color: #666;
+    font-style: italic;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+ }
+
+ a {
+    color: #667eea;
+ }
+
+ cite {
+    font-style: italic;
+ }
