@@ -68,11 +68,6 @@ ul {
     font-size: 0.9rem;
 }
 
-ul li {
-display: inline;
-margin-right: 2.5rem;
-}
-
 ul li a {
     color: #667eea;
     text-decoration: none;
